@@ -735,3 +735,70 @@ h2 {
   .modify-btn:hover {
     background: #0056b3;
   }
+/* Mobile responsive tweaks */
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  #userInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .container,
+  .menu-section,
+  .self-pickup-section,
+  .orders-section,
+  .health-benefits,
+  #myOrdersSection {
+    padding: 15px;
+    margin: 15px 10px;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-item label,
+  .menu-item input {
+    width: 100%;
+  }
+
+  .images {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+  }
+
+  .banner {
+    width: 90%;
+    height: auto;
+  }
+
+  .self-pickup-section input,
+  .self-pickup-section select,
+  .self-pickup-section button {
+    width: 100%;
+  }
+
+  .orders-section ul,
+  #myOrdersList {
+    padding: 0;
+  }
+
+  .health-benefits li {
+    padding-left: 24px;
+  }
+
+}
